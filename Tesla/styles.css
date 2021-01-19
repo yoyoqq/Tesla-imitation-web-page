@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+#first {
+  background-image: url("img/solarpanel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#second {
+  background-image: url("img/modelS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#third {
+  background-image: url("img/model3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+#fourth {
+  background-image: url("img/modelx.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#fifth {
+  background-image: url("img/modelY.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#sixth {
+  background-image: url("img/house.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#seventh {
+  background-image: url("img/charge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+nav ul li {
+  margin: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#logo {
+  float: left;
+  margin: 20px;
+}
+.nav-right {
+  display: flex;
+  float: right;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+#burger {
+  font-size: 17px;
+}
+
+.text {
+  margin-top: 5vh;
+}
+.text h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+.text h2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.btn {
+  margin-top: 65vh;
+}
+.btn-cars {
+  margin-top: 70vh;
+}
+#btn-cars-acc {
+  margin-top: 75vh;
+}
+button {
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 300px;
+  height: 5vh;
+  font-weight: 500;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+/*
+@media screen and (min-width: 1500) {
+  button {
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 300px;
+    height: 5vh;
+    font-weight: 475;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+}
+*/
+.black {
+  background-color: rgb(46, 46, 46);
+  color: rgb(216, 216, 216);
+}
+.white {
+  background-color: rgb(139, 139, 139);
+  color: rgb(46, 46, 46);
+}
+.white-cars {
+  background-color: rgb(179, 179, 179);
+  color: rgb(46, 46, 46);
+}
+.car-name {
+  padding-top: 5vh;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.car-name-sub {
+  font-size: 17px;
+  font-weight: 400;
+}
+.touch {
+  color: black;
+}
+footer {
+  font-size: 14px;
+  color: grey;
+  display: inline-flex;
+  margin-top: 4vh;
+  list-style-type: none;
+}
+footer a {
+  color: black;
+  margin: 3.5vh;
+  text-decoration: none;
+}
+
+#scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
